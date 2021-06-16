@@ -14,7 +14,7 @@ on:
   # https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07
   # Here we run every 10 minutes
   schedule:
-    - cron: '6,16,26,36,46,56 * * * *'
+    - cron: "6,16,26,36,46,56 * * * *"
 
 jobs:
   build:
