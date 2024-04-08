@@ -23,7 +23,7 @@ jobs:
       - name: set up python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.12
 
       - name: install dependencies
         run: pip install -r https://raw.githubusercontent.com/lkiesow/wordpress-to-mail/main/requirements.txt
