@@ -10,6 +10,7 @@ name: Send News
 # to not send mails twice if the workflow fails half-way through.
 
 on:
+  workflow_dispatch:
   # Cron docs:
   # https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07
   # Here we run every 10 minutes
