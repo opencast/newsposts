@@ -59,10 +59,10 @@ jobs:
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
           MAIL_HOST: ${{ secrets.MAIL_HOST }}
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
-          MATRIX_HOST: ${{ secrets.MATRIX_HOST }}
+          MATRIX_HOST: "https://matrix.org"
+          MATRIX_ROOM: "!SyinlxeVqGGvRTTxZr:matrix.org"
           MATRIX_TOKEN: ${{ secrets.MATRIX_TOKEN }}
-          MATRIX_ROOM: ${{ secrets.MATRIX_ROOM }}
-          SEND_ONE: 1
+          SEND_ONE: "1"
         working-directory: news-announcements
         run: |
           ../wordpress-to-mail
