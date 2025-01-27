@@ -60,7 +60,7 @@ jobs:
           MAIL_HOST: ${{ secrets.MAIL_HOST }}
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
           MATRIX_HOST: "https://matrix.org"
-          MATRIX_ROOM: "!SyinlxeVqGGvRTTxZr:matrix.org"
+          MATRIX_ROOM: "%21SyinlxeVqGGvRTTxZr%3Amatrix.org"
           MATRIX_TOKEN: ${{ secrets.MATRIX_TOKEN }}
           SEND_ONE: "1"
         working-directory: news-announcements
